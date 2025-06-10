@@ -1,47 +1,50 @@
-# Astro Starter Kit: Minimal
+# Academic Homepage Using Typst
 
-```sh
-npm create astro@latest -- --template minimal
-```
+A fairly modern and minimal academic homepage built with **Typst** and **Astro**, designed for researchers and academics to showcase their work, publications, and achievements. [[LiveDemo](https://ahxt.github.io/academic-homepage-typst/)]
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+- [x] typst Integration
+- [x] math equations (typst) to MathML
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+<div align="center">
+<img src="public/img.png" width="80%">
+</div>
 
-## 🚀 Project Structure
+### How to
 
-Inside of your Astro project, you'll see the following folders and files:
+   ```bash
+   git clone <repository-url>
+   cd academic-homepage-typst
+   npm install
+   npm run dev
+   ```
+   
+   Your site will be available at `http://localhost:4321`
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-Any static assets, like images, can be placed in the `public/` directory.
 
-## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+### Add Content
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Content is written in **Typst** files located in the `content/` directory:
 
-## 👀 Want to learn more?
+- `content/about.typ` - Personal introduction and links
+- `content/cv.typ` - Academic CV with education, experience, publications
+- `content/news.typ` - Latest news and announcements  
+- `content/blog/*.typ` - Blog posts collection
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+
+### Dependencies
+- **[astro-typst](https://github.com/OverflowCat/astro-typst)**
+- **[typst.ts](https://github.com/Myriad-Dreamin/typst.ts)**
+- **[mathyml](https://codeberg.org/akida/mathyml)**: I copied the files from the `mathyml` package and put it in the `src/3rd_party/mathyml/` directory.
+       
+
+
+---
+
+This project is open source and available under the [MIT License](LICENSE).
+
+
