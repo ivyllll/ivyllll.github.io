@@ -33,7 +33,7 @@
   [], [_Conference on Empirical Methods in Natural Language Processing_, 2025],
   [],[],
 
-  [*[JASTARS'24]*], [#link("https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10310087")[SASiamNet: Self-Adaptive Siamese Network for Change Detection of Remote Sensing Image]],
+  [*[J-STARS'24]*], [#link("https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10310087")[SASiamNet: Self-Adaptive Siamese Network for Change Detection of Remote Sensing Image]],
   [], [*Xianxuan Long*, Wei Zhuang, Min Xia, Kai Hu, Haifeng Lin],
   [], [_IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing_, 2024],
   [],[],
