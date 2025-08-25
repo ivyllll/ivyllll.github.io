@@ -1,5 +1,7 @@
 === 📝 Publications
 
+
+
 #table(
   columns: (0.8in, 1fr),
   stroke: none,
@@ -7,38 +9,44 @@
   inset: (x: 0pt, y: 3pt),
   align: (x, y) => (left, left).at(x),
 
-  
-  [*[arXiv]*], [#link("https://arxiv.org/abs/2501.12948")[DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning]],
-  [], [DeepSeek-AI, Daya Guo, Dejian Yang, Haowei Zhang, Junxiao Song, Ruoyu Zhang, Runxin Xu. et al.],
-  [], [_arXiv_, 2025],
-  [],[],
-  
 
 
-  [*[NeurIPS2020]*], [#link("https://arxiv.org/abs/2006.11239")[Denoising Diffusion Probabilistic Models]],
-  [], [Jonathan Ho, Ajay Jain, Pieter Abbeel],
-  [], [_Neural Information Processing Systems (NeurIPS)_, 2020],
-  [],[],
-  
-  [*[arXiv]*], [#link("https://arxiv.org/abs/1707.06347")[Proximal Policy Optimization Algorithms]],
-  [], [John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov],
-  [], [_arXiv_, 2017],
-  [],[],
-  
-
-  [*[NeurIPS2017]*], [#link("https://arxiv.org/abs/1706.03762")[Attention Is All You Need]],
-  [], [Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin],
-  [], [_Neural Information Processing Systems (NeurIPS)_, 2017],
+ [#strong([\[EMNLP'25 #linebreak() Main\]])], [#link("https://www.arxiv.org/pdf/2507.22149")[When Truthful Representations Flip Under Deceptive Instructions?]],
+  [], [*Xianxuan Long* , Yao Fu, Runchao Li, Mu Sheng, Haotian Yu, Xiaotian Han, Pan Li],
+  [], [_Conference on Empirical Methods in Natural Language Processing_, 2025],
   [],[],
 
 
-  
+
+   [#strong([\[EMNLP'25 #linebreak() Main\]])], [#link("")[Quantized but Deceptive? A Multi-Dimensional Truthfulness Evaluation of Quantized LLMs]],
+  [], [Yao Fu, *Xianxuan Long*, Runchao Li, Mu Sheng, Haotian Yu, Xiaotian Han, Pan Li],
+  [], [_Conference on Empirical Methods in Natural Language Processing_, 2025],
+  [],[],
+
+ [#strong([\[EMNLP'25#linebreak() Findings\]])], [#link("")[Pruning Weights but Not Truth: Safeguarding Truthfulness While Pruning LLMs]],
+  [], [Yao Fu, Runchao Li, *Xianxuan Long*, Haotian Yu, Xiaotian Han, Yu Yin, Pan Li],
+  [], [_Conference on Empirical Methods in Natural Language Processing_, 2025],
+  [],[],
+
+ [#strong([\[EMNLP'25#linebreak() Findings\]])], [#link("https://arxiv.org/html/2507.20030v1")[FAEDKV: Infinite-Window Fourier Transform for Unbiased KV Cache Compression]],
+  [], [Runchao Li, Yao Fu, Mu Sheng, *Xianxuan Long*, Haotian Yu, Pan Li],
+  [], [_Conference on Empirical Methods in Natural Language Processing_, 2025],
+  [],[],
+
+  [*[JASTARS'24]*], [#link("https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10310087")[SASiamNet: Self-Adaptive Siamese Network for Change Detection of Remote Sensing Image]],
+  [], [*Xianxuan Long*, Wei Zhuang, Min Xia, Kai Hu, Haifeng Lin],
+  [], [_IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing_, 2024],
+  [],[],
+
 )
 
 
 
+/*
+
 === 🎓 Education
-- _Ph.D. in Computer Science_, State University, City, State #h(1fr) Sep 2005 -- Aug 2010\
+
+- _Ph.D. in Computer Engineering_, State University, City, State #h(1fr) Sep 2005 -- Aug 2010\
 - _B.S. in Computer Science_, Public University, City, State #h(1fr) Sep 1999 -- June 2003 \ 
 
 
@@ -62,7 +70,7 @@
 *DataSystems Inc.*, Austin, TX #h(1fr) May 2008 -- Aug 2008
   - _Software Engineering Intern_, Built scalable data processing pipelines for recommendation systems
   - Mentor: Michael Rodriguez
- 
+
 *AI Innovations Lab*, Portland, OR #h(1fr) Sept 2007 -- April 2008
   - _Research Assistant_, Implemented graph-based machine learning algorithms for social network analysis
   - Mentor: Prof. Jennifer Lee
@@ -84,6 +92,5 @@
 
 *Program Committee/Reviewer*: COMPCONF 2014; DATACONF 2014; ALGOCONF 2013; SYSCONF 2012, 2013; MLCONF 2012, 2013, 2015; AICONF 2011, 2012, 2013, 2014; TECHCONF 2011, 2013; NetConf 2013; STATSCONF 2013; DMCONF 2012; GRAPHCONF 2013; 
 
-
-
+*/
 

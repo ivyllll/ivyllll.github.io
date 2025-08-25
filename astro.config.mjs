@@ -5,9 +5,9 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://ahxt.github.io/academic-homepage-typst',
-  base: '/academic-homepage-typst/',
-  
+  site: 'https://ivyllll.github.io',
+  base: '/',
+
   integrations: [
     sitemap({
       // Basic sitemap configuration
@@ -21,12 +21,12 @@ export default defineConfig({
       }
     }),
   ],
-  
+
   // Build configuration
   build: {
     inlineStylesheets: 'auto',
   },
-  
+
   // Vite configuration
   vite: {
     build: {
@@ -35,10 +35,10 @@ export default defineConfig({
       sourcemap: false,
     },
   },
-  
+
   // Output configuration
   output: 'static',
-  
+
   // Markdown configuration
   markdown: {
     shikiConfig: {

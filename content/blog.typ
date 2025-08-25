@@ -1,3 +1,7 @@
+/*
+
+
+
 #import "/src/3rd_party/mathyml/lib.typ": *
 
 #let main(
@@ -23,7 +27,7 @@
         tags: tags,
       )) <frontmatter>
     ]
-
+    
     // set basic document metadata
     set document(
       author: author,
@@ -35,7 +39,7 @@
     show math.equation: set text(weight: 500)
     // show math.equation: to-mathml
     show math.equation: try-to-mathml
-    
+
 
     // Footnotes
     show: it => {
@@ -59,7 +63,7 @@
 
 
   body
-  
+
 
   context{
     query(footnote)
@@ -77,3 +81,5 @@
   }
 
 }
+
+*/
