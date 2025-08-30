@@ -18,7 +18,7 @@
 
 
 
-   [#strong([\[EMNLP'25 #linebreak() Main\]])], [#link("")[Quantized but Deceptive? A Multi-Dimensional Truthfulness Evaluation of Quantized LLMs]],
+   [#strong([\[EMNLP'25 #linebreak() Main\]])], [#link("https://arxiv.org/pdf/2508.19432")[Quantized but Deceptive? A Multi-Dimensional Truthfulness Evaluation of Quantized LLMs]],
   [], [Yao Fu, *Xianxuan Long*, Runchao Li, Mu Sheng, Haotian Yu, Xiaotian Han, Pan Li],
   [], [_Conference on Empirical Methods in Natural Language Processing_, 2025],
   [],[],
