@@ -11,7 +11,7 @@
 
 
 
- [#strong([\[EMNLP'25 #linebreak() Main\]])], [#link("https://www.arxiv.org/pdf/2507.22149")[When Truthful Representations Flip Under Deceptive Instructions?]],
+[#strong([\[EMNLP'25 #linebreak() Main, Oral\]])],  [#link("https://www.arxiv.org/pdf/2507.22149")[When Truthful Representations Flip Under Deceptive Instructions?]],
   [], [*Xianxuan Long* , Yao Fu, Runchao Li, Mu Sheng, Haotian Yu, Xiaotian Han, Pan Li],
   [], [_Conference on Empirical Methods in Natural Language Processing_, 2025],
   [],[],
